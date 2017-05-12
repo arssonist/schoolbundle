@@ -25,7 +25,7 @@
 }
 
 #widget{
-    padding:10px;
+    padding:10px 20px;
     overflow: hidden;
 }
 .time-limit{
@@ -46,7 +46,24 @@
     border-radius: 5px;
 }
 
-
-p {
+#widget p {
     font-family:"PT sans caption";
+    color:#666666;
+}
+
+.why-link{
+    font:MerriWeather;
+    font-style: italic;
+}
+.bottom-buttons{
+    margin:0 28px;
+    display: inline-block;
+    padding:10px;
+}
+.bottom-buttons button{
+    width: 140%;
+    box-shadow: 4px 6px 5px #888888;
+    border-radius: 5px;
+    font-family: "PT sans caption";
+    font-weight: bold;
 }
