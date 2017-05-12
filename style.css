@@ -1,0 +1,52 @@
+.page-wrap{
+    max-width: 400px;
+    margin: auto;
+    padding: 100px 0;
+}
+@font-face {
+    font-family: MerriWeather;
+    src: "./Fonts/Merriweather";
+}
+@font-face {
+    font-family: "PT sans caption";
+    src: "./Fonts/PT_Sans_Caption";
+}
+#widget-container{
+    border:1px solid silver;
+}
+.alert-box{
+    background-color: black;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+}
+.alert-box p{
+    line-height: 3;
+}
+
+#widget{
+    padding:10px;
+    overflow: hidden;
+}
+.time-limit{
+    color: #ff6347;
+}
+.input{
+    display: inline-block;
+    float:left;
+    width: 50%;
+}
+.input input{
+    line-height: 2.5;
+    border-radius: 5px;
+}
+.input button{
+    line-height: 1.5;
+    width: 175px;
+    border-radius: 5px;
+}
+
+
+p {
+    font-family:"PT sans caption";
+}
